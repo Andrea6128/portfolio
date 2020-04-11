@@ -1,0 +1,12 @@
+<div class="section-box">
+<h3><span>COURSES & CERTIFICATES</span></h3>
+{% for course in courses %}
+  {% if course.courseDateTo == "" %}
+    <div class="section-box-courses-label-left">{{ course.courseName }}</div>
+    <div class="section-box-courses-label-right">{{ course.courseDateFrom }}</div>
+  {% else %}
+    <div class="section-box-courses-label-left">{{ course.courseName }}</div>
+    <div class="section-box-courses-label-right">{{ course.courseDateFrom }} - {{ course.courseDateTo }}</div>
+  {% endif %}
+{% endfor %}
+</div>

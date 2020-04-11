@@ -1,0 +1,227 @@
+body {
+    overflow-x: hidden;
+}
+
+.title {
+    background: #f0f0f0;
+    color: black;
+}
+
+.title-pic {
+    background: #f0f0f0;
+    color: black;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-align: center;
+    position: relative;
+}
+
+#firstname {
+    font-family: Nunito Sans, sans-serif;
+    font-size: 2.3em;
+    padding-top: 20px;
+    left: -900px;
+    position: relative;
+}
+
+#lastname {
+    font-family: Lusitana, sans-serif;
+    font-size: 4.5em;
+    right: -1100px;
+    position: relative;
+}
+
+#profession {
+    font-family: Nunito Sans, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #a0a0a0;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.motto {
+    font-family: Ubuntu, sans-serif;
+    font-size: 3.8em;
+    text-align: center;
+    background: #f5f5f5;
+    color: #edc59a;
+    padding: 20px 20px;
+}
+
+.personal-desc {
+    font-family: Nunito Sans, sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+    background: #f8f8f8;
+    color: #8c8c8c;
+    padding: 20px 20% 20px 20%;
+}
+
+.navbar {
+    font-family: Nunito Sans, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px 0 15px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.navbar #button {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline;
+}
+
+.section-box {
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 25px 55px 25px;
+    background: white;
+    color: #333;
+    font-family: Nunito Sans, sans-serif;
+    box-shadow: 10px 10px 8px #888;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.section-box h3 {
+    width: 70%; 
+    text-align: center; 
+    border-bottom: 2px solid #8c8c8c; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-size: 3em;
+    padding-top: 40px;
+    margin: auto;
+    margin-bottom: 85px;
+    margin-top: 40px;
+}
+
+.section-box h3 span { 
+    background: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.section-box-contact-data {
+    color: black;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.section-box-contact-data a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-box-contact-label {
+    color: #8c8c8c;
+    font-size: 1.8em;
+    padding-bottom: 30px;
+}
+
+.section-box-skills-data {
+    color: #8c8c8c;
+    font-size: 1.8em;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-box-skills-label {
+    color: #8c8c8c;
+    font-size: 2.8em;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#skill-bar {
+    margin: auto;
+    width: calc(90% - 10px);
+    height: 20px;
+    border-style: solid;
+    border-color: #a0a0a0;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+#skill-bar-inner {
+    margin-left: 1px;
+    height: 18px;
+    background: #a0a0a0;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    /* animation-name: progressbar;
+    animation-duration: 2s; */
+}
+
+.skill-box {
+    /* display: inline-block; */
+    position: relative;
+    margin: 5px;
+    float: left;
+    width: calc(25% - 10px);
+    height: 225px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.skill-box-outer {
+    height: 475px;
+}
+
+.section-box-history-label-left {
+    color: #8c8c8c;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: left;
+    float: left;
+}
+
+.section-box-history-label-right {
+    color: #8c8c8c;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.section-box-history-desc {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.section-box-history-skills {
+    color: black;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.section-box-courses-label-left {
+    color: #8c8c8c;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: left;   
+    float: left;
+}
+
+.section-box-courses-label-right {
+    color: #8c8c8c;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: right;
+}
