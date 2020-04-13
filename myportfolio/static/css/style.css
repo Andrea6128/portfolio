@@ -225,3 +225,44 @@ body {
     padding-top: 20px;
     text-align: right;
 }
+
+.portfolio-box {
+    /* display: inline-block; */
+    position: relative;
+    margin: 5px;
+    float: left;
+    width: calc(25% - 10px);
+    height: 225px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.portfolio-box-outer {
+    height: 475px;
+}
+
+.section-box-portfolio-data {
+    color: green;
+    /* color: #8c8c8c; */
+    font-size: 1.8em;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-box-portfolio-label {
+    /* color: #8c8c8c; */
+    color: red;
+    font-size: 2.8em;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio-pic {
+    background: #f0f0f0;
+    color: black;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-align: center;
+    position: relative;
+}

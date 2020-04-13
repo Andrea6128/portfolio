@@ -52,7 +52,7 @@ class Course(models.Model):
 class Portfolio(models.Model):
     portfolioName = models.CharField(max_length=50, verbose_name="Portfolio Name")
     portfolioType = models.CharField(max_length=50, verbose_name="Portfolio Type")
-    portfolioMedia = models.ImageField(upload_to='', max_length=100)
+    portfolioMedia = models.ImageField(upload_to='myportfolio/media', max_length=100)
     portfolioURL = models.URLField(blank=True)
 
     def __str__(self):

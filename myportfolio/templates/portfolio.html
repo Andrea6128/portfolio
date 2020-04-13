@@ -1,1 +1,11 @@
-<h2>Portfolio and Hobby Projects</h2>
+<div class="section-box">
+<h3><span>PROJECT PORTFOLIO</span></h3>
+  <div class="portfolio-box">
+    {% for portfolio in portfolios %}
+      <div class="section-box-portfolio-label">{{ portfolio.portfolioName }}</div>
+      <div class="section-box-portfolio-data">{{ portfolio.portfolioType }}</div>
+      <div id="portfolio-pic"><img src="{{ portfolio.portfolioMedia.url }}" width="192"></div>
+      {{ portfolio.portfolioURL }}
+    {% endfor %}
+  </div>
+</div>
