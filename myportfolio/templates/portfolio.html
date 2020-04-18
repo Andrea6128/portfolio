@@ -1,11 +1,12 @@
 <div class="section-box">
 <h3><span>PROJECT PORTFOLIO</span></h3>
-  <div class="portfolio-box">
-    {% for portfolio in portfolios %}
-      <div class="section-box-portfolio-label">{{ portfolio.portfolioName }}</div>
-      <div class="section-box-portfolio-data">{{ portfolio.portfolioType }}</div>
-      <div id="portfolio-pic"><img src="{{ portfolio.portfolioMedia.url }}" width="192"></div>
-      {{ portfolio.portfolioURL }}
-    {% endfor %}
+  <div class="portfolio-box-outer">
+    <div class="portfolio-box">
+      {% for portfolio in portfolios %}
+        <div class="section-box-portfolio-label">{{ portfolio.portfolioName }}</div>
+        <div class="section-box-portfolio-data">{{ portfolio.portfolioType }}</div>
+        <div id="section-box-portfolio-pic"><a href="{{ portfolio.portfolioURL }}"><img src="{{ portfolio.portfolioMedia.url }}" width="85%"></a></div>
+      {% endfor %}
+    </div>
   </div>
 </div>
