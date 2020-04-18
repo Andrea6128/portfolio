@@ -1,5 +1,8 @@
 <div class="section-box">
 <h3><span>COURSES & CERTIFICATES</span></h3>
+<div class="icon">
+  <img src="/static/images/courses.png" width="50px">
+</div>
 {% for course in courses %}
   {% if course.courseDateTo == "" %}
     <div class="section-box-courses-label-left">{{ course.courseName }}</div>

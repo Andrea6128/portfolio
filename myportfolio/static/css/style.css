@@ -2,6 +2,12 @@ body {
     overflow-x: hidden;
 }
 
+.icon {
+    vertical-align: middle;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
 .title {
     background: #eaf5ff;
     color: black;
@@ -122,7 +128,7 @@ body {
     font-size: 3em;
     padding-top: 40px;
     margin: auto;
-    margin-bottom: 85px;
+    margin-bottom: 40px;
     margin-top: 40px;
 }
 
