@@ -34,28 +34,32 @@ crossorigin="anonymous"></script>
 </script>
 
 {% for personal in personals %}      
-<div class="title-pic">
-  <div id="photo"><img src="{{ personal.myPic.url }}" width="192"</div>
-</div> 
+<div class="title"> <!-- this div ends in base.html -->
+  <div class="title-pic">
+    <div class="title-pic-top-box">
+      <div id="photo"><img src="{{ personal.myPic.url }}" width="192">
+        <div class="title-pic-line"></div>
+      </div>
+    </div>
+  </div>
+ 
 
-<div id="firstname">{{ personal.myFirstName }}</div>
-<div id="lastname">{{ personal.myLastName }}</div>
-<div id="profession">{{ personal.myProfession }}</div>
+  <div id="firstname">{{ personal.myFirstName }}</div>
+  <div id="lastname">{{ personal.myLastName }}</div>
+  <div id="profession">{{ personal.myProfession }}</div>
 
-<div class="title">
   <div class="motto"><> always learning new things <&#47;></div>
   <div class="personal-desc">{{ personal.myDescription }}</div>
-</div>
 {% endfor %}
 
 <div class="navbar">
   {% include 'navbar.html' %}
 </div>
 
-<div id="contacts">{% include 'contact.html' %}</div>
 <div id="skills">{% include 'skill.html' %}</div>
 <div id="education">{% include 'history.html' %}</div>
 <div id="courses">{% include 'course.html' %}</div>
 <div id="portfolio">{% include 'portfolio.html' %}</div>
+<div id="contacts">{% include 'contact.html' %}</div>
 
 {% endblock %}
