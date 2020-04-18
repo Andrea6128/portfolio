@@ -162,12 +162,9 @@ body {
     border-color: white;
     border-radius: 5px;
     border-width: 1px;
-    /* animation-name: progressbar;
-    animation-duration: 2s; */
 }
 
 .skill-box {
-    /* display: inline-block; */
     position: relative;
     margin: 5px;
     float: left;
@@ -230,14 +227,9 @@ body {
     position: relative;
     margin: 5px;
     float: none;
-    width: calc(95% - 10px);
-    height: 500;
     background-color: #f8f8f8;
     border-radius: 10px;
-}
-
-.portfolio-box-outer {
-    height: 1500;
+    padding-bottom: 50px;
 }
 
 .section-box-portfolio-data {
@@ -283,7 +275,6 @@ footer {
   footer p {
     font-family: Nunito Sans, sans-serif;
     font-size: 1em;
-    /* font-size: 14px; */
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 20px;

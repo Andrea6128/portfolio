@@ -18,7 +18,6 @@ def home_view(request):
                 'historys': queryset_history,
                 'courses': queryset_course,
                 'portfolios': queryset_portfolio,
-                'range': range(2),
             }
     
     return render(request, 'home.html', context)

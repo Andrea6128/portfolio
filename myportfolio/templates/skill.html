@@ -1,7 +1,5 @@
 <div class="section-box">
   <h3><span>SKILLS</span></h3>
-
-
   <div class="skill-box-outer">
     {% for skill in skills %}
     
@@ -9,7 +7,7 @@
       <div class="section-box-skills-label">{{ skill.skillType }}</div>
       <div class="section-box-skills-data">{{ skill.skillBar }}%</div>
       <div id="skill-bar">
-        <div id="skill-bar-inner" style="width: calc({{ skill.skillBar }}% - 4px);">
+        <div id="skill-bar-inner"style="width: calc({{ skill.skillBar }}% - 4px);">
         </div>
       </div>
     </div>

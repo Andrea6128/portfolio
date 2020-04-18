@@ -1,8 +1,4 @@
 from django.db import models
-from django.utils import timezone
-from django.urls import reverse
-from datetime import datetime
-# import requests
 
 
 # Create your models here.
